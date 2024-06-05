@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 1em;
+}
+
+.intro {
+    background: url('volkswagen-tiguan.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2em;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.overlay .content {
+    padding: 1em;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
+
+.highlights {
+    display: flex;
+    padding: 2em;
+}
+
+aside {
+    width: 20%;
+}
+
+aside h2 {
+    margin-bottom: 1em;
+}
+
+.filter-btn {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: none;
+    background-color: #181717;
+    color: white;
+    text-align: left;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.filter-btn:hover {
+    background-color: #555;
+}
+
+.car-list {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.car-item {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    text-align: center;
+}
+
+.car-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.car-item h3 {
+    margin: 1em 0;
+}
+
+.car-item p {
+    margin: 1em 0;
+}
+
+.car-item button {
+    background-color: green;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.car-item button:hover {
+    background-color: darkgreen;
+}
+
+.login form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.login input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login button {
+    width: 100%;
+    padding: 0.75em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #555;
+}
